@@ -17,7 +17,7 @@ def search_replace(my_list, search, replace):
         a new list with the new elements
     """
 
-    L = my_list.copy()
+    L = my_list[:]
     x = 0
     for i in L:
         if(i==search):
